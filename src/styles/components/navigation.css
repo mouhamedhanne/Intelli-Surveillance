@@ -1,0 +1,25 @@
+.navigation {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-navigation ul {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  margin-right: 5rem;
+}
+
+.link-navigation ul li {
+  color: blue;
+  font-size: 1.1rem;
+
+  display: inline;
+  margin-inline: 15px;
+  transition: 0.4s;
+}
+
+.link-navigation ul li:hover {
+  color: blue;
+}

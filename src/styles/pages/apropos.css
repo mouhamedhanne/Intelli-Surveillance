@@ -1,0 +1,32 @@
+.l-apropos {
+  background-color: #f6f6f8;
+}
+
+.banner_apropos {
+  position: relative;
+}
+
+.image_fond_apropos {
+  position: absolute;
+  margin-top: 7rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.l-apropos .compagnie_profil h2 {
+  font-size: 42px;
+  line-height: 54.6px;
+}
+
+.l-apropos .compagnie_profil p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.compagnie_profil {
+  margin: 9rem 10rem 0 10rem;
+  padding-top: 0;
+}

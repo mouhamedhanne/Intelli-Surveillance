@@ -1,0 +1,125 @@
+.l-acceuil .container .block_description {
+  color: #fff;
+  padding-top: 10rem;
+  /*padding-left: 5rem;*/
+}
+
+.l-acceuil .container .block_description h1 {
+  font-size: 3rem;
+  color: blue;
+}
+
+.l-acceuil .container .block_description p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.l-acceuil .container .block_description button {
+  color: blue;
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  margin-top: 2rem;
+  padding: 15px 45px;
+  line-height: 15px;
+}
+
+.l-acceuil .container .block_description button:hover {
+  color: #fff;
+  background-color: black;
+}
+
+/*END first section*/
+
+/*BEGIN second section*/
+
+.secondary_item {
+  margin-top: 6rem;
+}
+
+.secondary_item .secondary_item_title {
+  font-size: 45px;
+  text-align: center;
+  line-height: 54.6px;
+}
+
+.secondary_item .secondary_item_desc {
+  margin-top: 3rem;
+  text-align: center;
+  line-height: 24px;
+}
+
+.secondary_item {
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ecedef;
+}
+
+.secondary_item .box_secondary {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 16rem;
+  margin-left: 16rem;
+}
+
+.secondary_item .box_secondary {
+  margin-top: 6rem;
+}
+
+.secondary_item .box_secondary .description_box h3 {
+  margin-top: 0;
+  line-height: 30.6px;
+}
+
+.secondary_item .box_secondary .description_box p {
+  margin-top: 2rem;
+  line-height: 24px;
+}
+
+.secondary_item .box_secondary .description_box ul {
+  margin-top: 3rem;
+}
+
+.secondary_item .box_secondary .description_box ul li {
+  list-style-type: none;
+  padding: 8px 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.secondary_item .box_secondary .description_box button {
+  margin-top: 1rem;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  font-size: 18px;
+  padding: 15px 45px;
+  line-height: 15px;
+}
+
+.secondary_item .box_secondary .description_box button:hover {
+  color: #fff;
+  background-color: black;
+}
+
+/*END second section*/
+
+/*BEGIN section card*/
+
+.pack_container {
+  margin: 0 0 5rem 0;
+  padding: 4rem 0;
+  background-color: #f6f6f8;
+}

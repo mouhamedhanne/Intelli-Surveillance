@@ -1,0 +1,19 @@
+.l-blog {
+  position: relative;
+}
+
+.back_cont {
+  /* Vos styles pour l'image en arrière-plan ici */
+  filter: brightness(
+    40%
+  ); /* Par exemple, vous pouvez utiliser la propriété filter pour appliquer un filtre flou */
+  /* Autres styles pour l'image en arrière-plan */
+
+  /* Assurez-vous de spécifier la taille et d'autres styles nécessaires */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1; /* Assurez-vous que l'image en arrière-plan est en dessous du titre */
+}

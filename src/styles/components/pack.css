@@ -1,0 +1,41 @@
+.l-pack .pack_item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.l-pack .pack_item .card_pack {
+  border: 0.5px solid #dddddf;
+  padding: 2rem;
+  text-align: center;
+}
+
+.l-pack .pack_item .card_pack h2 {
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.separateur {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.separateur::before,
+.separateur::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ecedef;
+}
+
+.l-pack .pack_item .card_pack button {
+  border: none;
+  background-color: #03b048;
+  color: #fff;
+  margin-top: 5px;
+  font-size: 18px;
+  padding: 13px 55px;
+  line-height: 15px;
+}

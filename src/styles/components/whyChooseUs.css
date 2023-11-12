@@ -1,0 +1,56 @@
+.l-choose {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+.l-choose .choose_item h2 {
+  font-size: 42px;
+  line-height: 54.6px;
+}
+
+.l-choose .choose_card {
+  display: flex;
+}
+
+.l-choose .choose_card .Choose_card_row1 {
+  background-image: url(/src/assets/securite.jpg);
+  background-size: cover;
+  margin-right: 3rem;
+  filter: brightness(40%);
+  padding: 1.5rem 1.3rem 0 1.3rem;
+}
+
+.l-choose .choose_card .Choose_card_row2 {
+  background-image: url(/src/assets/support.jpg);
+  background-size: cover;
+  margin-right: 3rem;
+  filter: brightness(40%);
+  padding: 1.5rem 1rem 0 1rem;
+}
+
+.l-choose .choose_card .Choose_card_row3 {
+  background-image: url(/src/assets/cout.jpg);
+  background-size: cover;
+  filter: brightness(40%);
+  padding: 1.5rem 1rem 0 1rem;
+}
+
+.l-choose .choose_card .Choose_card_row1 button,
+.l-choose .choose_card .Choose_card_row2 button,
+.l-choose .choose_card .Choose_card_row3 button {
+  border: none;
+  color: #fff;
+  background-color: #0089e4;
+  margin: 1rem 0 2rem 0;
+  padding: 10px 25px;
+  line-height: 15px;
+}
+
+.l-choose .choose_card .Choose_card_row1 button:hover,
+.l-choose .choose_card .Choose_card_row2 button:hover,
+.l-choose .choose_card .Choose_card_row3 button:hover {
+  color: #0089e4;
+  background-color: #fff;
+}

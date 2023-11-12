@@ -1,0 +1,68 @@
+.banner_services {
+  position: relative;
+}
+
+.image_fond_services {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.l-services .description_services {
+  background-color: #f6f6f8;
+  margin-top: 0;
+  padding: 5rem 0 7rem 0;
+  margin-bottom: 7rem;
+}
+
+.l-services .description_services p {
+  margin-left: 13rem;
+  margin-right: 13rem;
+  line-height: 24px;
+}
+
+.l-services .type_services_container {
+  margin-bottom: 8rem; /* pour test */
+}
+
+.l-services .type_services_container h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.l-services .type_services_container p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.l-services .type_services_container button {
+  margin-top: 2rem;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  font-size: 18px;
+  padding: 15px 45px;
+}
+
+.l-services .type_services_container button:hover {
+  color: #fff;
+  background-color: black;
+}
+
+.l-services .type_services_container .hr {
+  display: flex;
+  align-items: center;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.l-services .type_services_container .hr::before,
+.l-services .type_services_container .hr::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ecedef;
+}
