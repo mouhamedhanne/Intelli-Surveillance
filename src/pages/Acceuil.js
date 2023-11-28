@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import Pack from "../components/Pack";
 import WhyChooseUs from "../components/WhyChooseUs";
 import ContactUs from "../components/ContactUs";
+import "../styles/pages/acceuil.css";
 import Imgcarr from "../assets/central.jpg";
 import ImgSecondary from "../assets/central_secondary.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,15 +14,19 @@ const backgroundAcceuil = {
     backgroundImage: `url(${Imgcarr})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
+    backgroundAttachment: "fixed",
     width: "100%",
-    height: "100vh",
+    height: "90vh",
   },
 };
 
 const Acceuil = () => {
   function handleClick() {
     var confirmation = prompt("Entrez votre adresse email");
-    if (confirmation === null || confirmation === "") {
+    if (confirmation === null) {
+      return;
+    }
+    if (confirmation === "") {
       alert("Veuillez entrer votre adresse email");
     } else if (confirmation.indexOf("@") === -1) {
       alert("Veuillez entrer une adresse email valide");

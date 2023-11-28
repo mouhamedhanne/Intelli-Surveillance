@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/components/whyChooseUs.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import { faShieldAlt } from "@fortawesome/free-solid-svg-icons";

@@ -70,8 +70,8 @@
 .secondary_item .box_secondary {
   display: flex;
   justify-content: space-around;
-  margin-right: 16rem;
-  margin-left: 16rem;
+  margin-right: 12rem;
+  margin-left: 12rem;
 }
 
 .secondary_item .box_secondary {
