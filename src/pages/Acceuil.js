@@ -20,7 +20,16 @@ const backgroundAcceuil = {
 
 const Acceuil = () => {
   function handleClick() {
-    alert("hello world");
+    var confirmation = prompt("Entrez votre adresse email");
+    if (confirmation === null || confirmation === "") {
+      alert("Veuillez entrer votre adresse email");
+    } else if (confirmation.indexOf("@") === -1) {
+      alert("Veuillez entrer une adresse email valide");
+    } else {
+      alert(
+        "Merci pour votre demande. Nous vous contacterons dans les plus brefs delais"
+      );
+    }
   }
   return (
     <div>
