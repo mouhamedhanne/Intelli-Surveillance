@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../components/Navigation";
+import "../styles/pages/apropos.css";
 import BannerApropos from "../assets/banner_apropos.jpg";
 
 const backgroundApropos = {

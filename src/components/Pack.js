@@ -1,5 +1,6 @@
 import React from "react";
 import DataPack from "./DataPack";
+import "../styles/components/pack.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 

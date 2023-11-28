@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import ContactUs from "../components/ContactUs";
+import "../styles/pages/services.css";
 import BannerServices from "../assets/banner_service.jpg";
 import service1 from "../assets/service_1.jpg";
 import service2 from "../assets/service_2.jpg";
@@ -11,6 +12,7 @@ const backgroundServices = {
     backgroundImage: `url(${BannerServices})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
+    backgroundAttachment: "fixed",
     width: "100%",
     height: "35vh",
     filter: "brightness(40%)",
