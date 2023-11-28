@@ -1,15 +1,18 @@
+/*
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Apropos from "./pages/Apropos";
 import Acceuil from "./pages/Acceuil";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
 import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
+ */
 
 const App = () => {
-  return (
-    <BrowserRouter>
+  return;
+  /**
+  *    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Acceuil />} />
         <Route path="/Apropos" element={<Apropos />} />
@@ -20,7 +23,7 @@ const App = () => {
         <Route path="*" element={<Acceuil />} />
       </Routes>
     </BrowserRouter>
-  );
+  */
 };
 
 export default App;
