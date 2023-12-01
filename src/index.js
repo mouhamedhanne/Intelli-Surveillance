@@ -9,33 +9,32 @@ import Services from "./pages/Services";
 import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 
-const router =
-  createBrowserRouter[
-    ({
-      path: "/",
-      element: <Acceuil />,
-    },
-    {
-      path: "/Acceuil",
-      element: <Apropos />,
-    },
-    {
-      path: "/Blog",
-      element: <Blog />,
-    },
-    {
-      path: "/Services",
-      element: <Services />,
-    },
-    {
-      path: "/FAQ",
-      element: <Faq />,
-    },
-    {
-      path: "/Contact",
-      element: <Contact />,
-    })
-  ];
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Acceuil />,
+  },
+  {
+    path: "/Apropos",
+    element: <Apropos />,
+  },
+  {
+    path: "/Blog",
+    element: <Blog />,
+  },
+  {
+    path: "/Services",
+    element: <Services />,
+  },
+  {
+    path: "/FAQ",
+    element: <Faq />,
+  },
+  {
+    path: "/Contact",
+    element: <Contact />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router}></RouterProvider>);
