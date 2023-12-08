@@ -8,6 +8,7 @@ import Imgcarr from "../assets/central.jpg";
 import ImgSecondary from "../assets/central_secondary.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import Faq from "../components/Faq";
 
 const backgroundAcceuil = {
   container: {
@@ -134,6 +135,9 @@ const Acceuil = () => {
       </div>
       <div className="we_choose">
         <WhyChooseUs />
+      </div>
+      <div>
+        <Faq />
       </div>
       <div>
         <ContactUs />

@@ -9,7 +9,7 @@ const backgroundApropos = {
     backgroundSize: "cover",
     backgroundPosition: "center",
     width: "100%",
-    height: "35vh",
+    height: "45vh",
     filter: "brightness(40%)",
   },
 };
@@ -24,7 +24,7 @@ const Apropos = () => {
             style={{
               color: "#fff",
               textAlign: "center",
-              paddingTop: "5rem",
+              paddingTop: "9rem",
               paddingBottom: "5rem",
               fontSize: "48px",
               lineHeight: "62.4px",

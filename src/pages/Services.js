@@ -14,7 +14,7 @@ const backgroundServices = {
     backgroundPosition: "center",
     backgroundAttachment: "fixed",
     width: "100%",
-    height: "35vh",
+    height: "45vh",
     filter: "brightness(40%)",
   },
 };
@@ -28,8 +28,8 @@ const Services = () => {
           <h1
             style={{
               color: "#fff",
-              paddingTop: "5rem",
-              paddingBottom: "5rem",
+              paddingTop: "10rem",
+              paddingBottom: "3rem",
               textAlign: "center",
               fontSize: "48px",
               lineHeight: "62.4px",
