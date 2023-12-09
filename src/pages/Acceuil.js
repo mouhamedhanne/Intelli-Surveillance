@@ -17,7 +17,7 @@ const backgroundAcceuil = {
     backgroundPosition: "center",
     backgroundAttachment: "fixed",
     width: "100%",
-    height: "90vh",
+    height: "100vh",
   },
 };
 
