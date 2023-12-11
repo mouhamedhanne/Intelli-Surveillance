@@ -136,7 +136,7 @@ const Acceuil = () => {
       <div className="we_choose">
         <WhyChooseUs />
       </div>
-      <div>
+      <div className="faq">
         <Faq />
       </div>
       <div>

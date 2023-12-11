@@ -3,3 +3,25 @@
   height: 100%;
   margin: auto;
 }
+
+.faq-section h2 {
+  font-size: 45px;
+  text-align: center;
+  line-height: 54.6px;
+}
+
+.faq-section p {
+  margin-top: 3rem;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 4rem;
+}
+
+.faq-acccordion-container {
+  display: flex;
+  justify-content: center;
+}
+
+.faq-accordion {
+  max-width: 50rem;
+}
