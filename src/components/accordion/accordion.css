@@ -1,0 +1,24 @@
+.accordion-box {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1.5px solid gray;
+  margin-bottom: 2rem;
+  border-radius: 9px;
+  text-align: left;
+}
+
+.ques-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  justify-content: center;
+  align-items: center;
+}
+
+.ques-answer h3 {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

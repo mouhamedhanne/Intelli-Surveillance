@@ -1,4 +1,4 @@
-export default Questions = [
+const Questions = [
   {
     id: 1,
     question:
@@ -59,3 +59,5 @@ export default Questions = [
       "Nous offrons une formation compléte sur l’utilisation du systéme installé. notre équipe fournira une des instructions détaillées sur la configuration, l’accés aux flux vidéos, la recupération des enregistrement, l’utilisation des fonctionnalités avancées, etc. Nous nous assurerons que vous et votre personnel êtes familiarisés avec le systéme et que vous êtes en mesure de l’utiliser de maniére efficace et autonome.",
   },
 ];
+
+export default Questions;
